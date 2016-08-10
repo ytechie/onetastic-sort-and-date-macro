@@ -26,7 +26,7 @@ A Onetastic macro for sorting pages and adding a sortable date prefix
         <Expression>$AllText = QueryObjects("Text", $Page)</Expression>
         <Expression>$TitleText = Array_PopFront($AllText)</Expression>
         <If>
-          <Condition>String_StartsWith($TitleText.value, 201, true)</Condition>
+          <Condition>String_StartsWith($TitleText.value, 20, true)</Condition>
           <Expression>""</Expression>
         </If>
         <Else>
