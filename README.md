@@ -15,6 +15,7 @@ A Onetastic macro for sorting pages and adding a sortable date prefix
 4. Paste in the XML below anc click "Ok"
 
 
+```
     <?xml version="1.0" encoding="utf-16"?>
     <Macro name="Sort &amp; Add Sortable Date" category="Sort" description="Sorts all of the pages within a section, and if they don't have a date sortable prefix, it adds one. This makes a page have a name like &quot;2016-08-09 My Page&quot;." publishDate="00-00-00T00:00:00.000Z" version="12">
       <Expression>$CurrentSection = GetCurrentSection()</Expression>
@@ -36,6 +37,7 @@ A Onetastic macro for sorting pages and adding a sortable date prefix
         </Else>
       </ForEach>
     </Macro>
+```
 
 5. Click Save
 
